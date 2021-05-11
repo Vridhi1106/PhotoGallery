@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+#MyCarousel{
+    background-color: red;
+}
+img{
+    width: 450px;
+    height: 350px;
+}
+#gif{
+    width: 600px;
+    height: 450px;
+}
+#menu{
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    background-color: white;
+    text-shadow: 2px 2px grey;
+    text-decoration: underline !important;
+}
+.links{
+    float: left;
+    color: dodgerblue;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20;
+    font-weight: 600;
+    font-family: Racing Sans one;
+}
+.links:hover{
+    background-color: deeppink;
+    font-size: 25; 
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Racing Sans one',cursive
+}
+html{
+    scroll-behavior: smooth;
+}

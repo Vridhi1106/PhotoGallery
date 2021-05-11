@@ -1,0 +1,151 @@
+<html>
+    <head>
+    <title> Photo Gallery
+    </title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <ul id="menu">
+            <li class="links"><a href="#Home">Home</a> </li>
+            <li class="links"><a href="#Grid">Grid View</a> </li>
+            <li class="links"><a href="#Slide">Slide View</a> </li>
+        </ul>
+        <section id="Home">
+            <img id="gif" src="flowers.gif">
+        </section>
+        <section id="Grid">
+            <h2> Grid View</h2>
+            <span> <img src="blue.jpg">
+                <img src="Orange.png">
+            </span>
+            <div></div>
+            <br>
+            <span> <img src="Pink%20tulip.jpg">
+                <img src="purple.jpg">
+            </span>
+            <div></div>
+            <br>
+            <span> <img src="Red%20rose.jpg">
+                <img src="violet.jpg">
+            </span>
+            <div></div>
+            <br>
+            <span> <img src="White.jpg">
+                <img src="yellow.jpg">
+            </span>
+        </section>
+        <section id="Slide">
+            <h2>Slide View </h2>
+            <div id="MyCarousel" class="carousel slide">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="violet.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Violet_Flower</h3>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="White.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> White_Flower </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="yellow.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Yellow_Flower </h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="blue.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Blue_Flower</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="Orange.png" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Orange_Flower</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="purple.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Purple_Flower</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="Pink%20tulip.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Pink_Tulip</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="#" target="_blank">
+                                <img src="Red%20rose.jpg" class="img-responsive">
+                            </a>
+                            <div class="carousel-caption">
+                                <h3> Red_Rose</h3>
+                            </div>
+                        </center>
+                    </div>
+
+                </div>
+            </div>
+            <!--This is the closing tag for carousel-inner-->
+
+
+
+            <!-- left and right controls -->
+            <a class="left carousel-controls" href="#MyCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-controls" href="#MyCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only"> Next</span>
+            </a>
+
+        </section>
+    </div>
+</body></html>
